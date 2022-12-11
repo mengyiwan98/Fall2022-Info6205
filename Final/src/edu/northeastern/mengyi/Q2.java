@@ -40,7 +40,7 @@ public class Q2 {
         }
         //top
         if ((i - 1) >= 0) {
-            islands(chars,i-1, j);
+            islands(chars,i - 1, j);
         }
     }
 }
