@@ -28,19 +28,19 @@ public class Q2 {
         }
         //bottom
         if ((i + 1) < chars.length) {
-            islands(chars,i + 1, j);
+            islands(chars, i + 1, j);
         }
         //right
         if ((j + 1) < chars[i].length) {
-            islands(chars, i,j + 1);
+            islands(chars, i, j + 1);
         }
         //left
         if ((j - 1) >= 0) {
-            islands(chars, i,j - 1);
+            islands(chars, i, j - 1);
         }
         //top
         if ((i - 1) >= 0) {
-            islands(chars,i - 1, j);
+            islands(chars, i - 1, j);
         }
     }
 }
